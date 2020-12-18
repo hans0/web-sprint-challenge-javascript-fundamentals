@@ -16,6 +16,11 @@ function myFunction() {
 myFunction();
 
 //🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀: 
+/*
+The 'internal' variable lies within the scope of myFunction, along with nestedFunction. 
+Functions can access variables within their own internal scopes, and scopes that contain it.
+Since nestedFunction and internal lie within the same scope, nestedFunction can access 'internal'.
+*/
 
 
 
